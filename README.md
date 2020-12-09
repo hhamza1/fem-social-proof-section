@@ -9,9 +9,9 @@
 
 ## The challenge
 
-Your challenge is to build out this social proof section and get it looking as close to the design as possible.
+The challenge is to build out this social proof section and get it looking as close to the design as possible.
 
-Your users should be able to:
+The users should be able to:
 
 - View the optimal layout for the section depending on their device's screen size
 
