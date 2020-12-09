@@ -7,7 +7,7 @@
 body {
   font-family: 'Spartan', sans-serif;
   font-size: 15px;
-  padding: 100px 25px;
+  padding:100px 25px 25px 25px ;
   text-align: center;
 
 }
@@ -62,7 +62,51 @@ header {
 /*-----------Social Proof/Testimonial-----------------*/
 
 .testimonials {
+  
   padding: 25px 0;
+  text-align: left;
+
+}
+
+.testimonial{
+  background-color: hsl(300, 43%, 22%);
+  border: 0;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  padding: 20px 30px;
+}
+
+.testimony-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+}
+
+.testimony-profile img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.testimonial-info {
+  padding: 5px 0;
+  margin-left: 15px;
+}
+
+.testimony-name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.testimony-verified {
+  color: hsl(333, 80%, 67%);
+}
+
+.testimony {
+  color: hsl(300, 24%, 96%);
+  font-size: 15px;
+  padding: 20px 0;
 }
 
 
