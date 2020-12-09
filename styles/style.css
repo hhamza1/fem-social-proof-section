@@ -7,10 +7,35 @@
 body {
   font-family: 'Spartan', sans-serif;
   font-size: 15px;
-  padding:100px 25px 25px 25px ;
+  padding: 100px 25px 25px 25px ;
   text-align: center;
 
 }
+
+main::before {
+  background-image: url(../images/bg-pattern-top-mobile.svg);
+  content: '';
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+main::after {
+  background-image: url(../images/bg-pattern-bottom-mobile.svg);
+  content: '';
+  background-repeat: no-repeat;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  bottom: -150%;
+  left: 0;
+
+}
+
+
 
 h1,
 h2,
@@ -26,7 +51,7 @@ h6, p {
 
 /*------------Header---------------*/
 
-header {
+.header {
   padding-bottom: 25px;
 }
 
@@ -105,7 +130,8 @@ header {
 
 .testimony {
   color: hsl(300, 24%, 96%);
-  font-size: 15px;
+  font-size: 13px;
+  line-height: 20px;
   padding: 20px 0;
 }
 
